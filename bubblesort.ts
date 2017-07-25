@@ -19,4 +19,5 @@ console.time('bubbleSort');
 const sorted = bubbleSort(array);
 console.timeEnd('bubbleSort');
 console.log(array.join(','));
+console.log()
 console.log(sorted.join(','));
